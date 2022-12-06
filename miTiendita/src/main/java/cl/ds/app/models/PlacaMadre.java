@@ -23,6 +23,46 @@ public class PlacaMadre {
         this.fabricante = fabricante;
     }
 
+    public String getSocket() {
+        return socket;
+    }
+
+    public void setSocket(String socket) {
+        this.socket = socket;
+    }
+
+    public String getChipset() {
+        return chipset;
+    }
+
+    public void setChipset(String chipset) {
+        this.chipset = chipset;
+    }
+
+    public String getMemorias() {
+        return memorias;
+    }
+
+    public void setMemorias(String memorias) {
+        this.memorias = memorias;
+    }
+
+    public String getFormato() {
+        return formato;
+    }
+
+    public void setFormato(String formato) {
+        this.formato = formato;
+    }
+
+    public String getFabricante() {
+        return fabricante;
+    }
+
+    public void setFabricante(String fabricante) {
+        this.fabricante = fabricante;
+    }
+
     @Override
     public String toString() {
         return "PlacaMadre{" +
